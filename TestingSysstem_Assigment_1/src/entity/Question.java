@@ -5,8 +5,8 @@ import java.util.Date;
 public class Question {
 	int questionId;
 	String content;
-	int categoryID;
-	int typeID;
-	int creatorID;
+	CategoryQuestion categoryID;
+	TypeQuestion typeID;
+	Account creatorID;
 	Date createDate;
 }

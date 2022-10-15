@@ -5,7 +5,8 @@ import java.util.Date;
 public class Group {
 	int groupID;
 	String groupName;
-	int creatorID;
+	Account creatorID;
+	Account[] accounts;
 	Date createDate;
+	
 }
-

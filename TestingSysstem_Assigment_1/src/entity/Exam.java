@@ -1,14 +1,15 @@
 package entity;
 
+import java.time.LocalDate;
 import java.util.Date;
 
 public class Exam {
 	int examID;
 	int code;
 	String title;
-	int categoryID;
+	CategoryQuestion categoryID;
 	int duration;
-	int creatorID;
-	Date createDate;
+	Account creatorID;
+	LocalDate createDate;
 	
 }

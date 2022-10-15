@@ -1,5 +1,6 @@
 package entity;
 
+import java.time.LocalDate;
 import java.util.Date;
 
 public class Account {
@@ -9,5 +10,8 @@ public class Account {
 	String fullName;
 	Department departmentID;
 	Position positionID;
-	Date createDate;
+	LocalDate createDate;
+	Group[] groups;
+	float luong;
 }
+

@@ -1,6 +1,6 @@
 package entity;
 
 public class CategoryQuestion {
-	Category categoryID;
+	int categoryID;
 	String categoryName;
 }

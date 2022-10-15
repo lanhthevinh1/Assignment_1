@@ -3,7 +3,7 @@ package entity;
 import java.util.Date;
 
 public class GroupAccount {
-	int groupID;
-	int accountID;
+	Group groupID;
+	Account accountID;
 	Date joinDate;
 }
