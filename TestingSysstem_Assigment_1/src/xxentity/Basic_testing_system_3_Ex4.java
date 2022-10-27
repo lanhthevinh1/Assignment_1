@@ -1,4 +1,4 @@
-package entity;
+package xxentity;
 
 import java.time.LocalDate;
 import java.util.Scanner;
@@ -262,7 +262,7 @@ public class Basic_testing_system_3_Ex4 {
 		String s1Reverse = "";
 		char[] s1Array = s1.toCharArray();
 		for (int i = s1Array.length - 1; i >= 0; i--) {
-			s1Reverse += s1Array[i];
+			s1Reverse += s1Array[i]; //Question 12
 		}
 		if (s2.equals(s1Reverse)) {
 			System.out.println("OK");
@@ -289,7 +289,52 @@ public class Basic_testing_system_3_Ex4 {
 //		"abc" => true
 //		"1abc", "abc1", "123", "a1bc", null => false
 		
+		String strQuestion12 = "a1bc";
+		for (int i = 0;i<strQuestion12.length();i++) {
+			if(Character.isDigit(strQuestion12.charAt(i))) {
+				System.out.println(false);
+				break;
+			}
+			
+		}
 		
+//		Question 14 (Optional): Replace character
+//		Cho một chuỗi str, chuyển các ký tự được chỉ định sang một ký tự khác
+//		cho trước.
+//		Ví dụ:
+//		"VTI Academy" chuyển ký tự 'e' sang '*' kết quả " VTI Acad*my"
+//		String strQuestion14 = "Academy";
+		Scanner sc = new Scanner(System.in);
+//		System.out.println("Nhập ký tự chỉ định muốn thay thế:");
+//		String xReplace = sc.next();
+//		char xxReplace = xReplace.charAt(0);
+//		char[] strArray14 = strQuestion14.toCharArray();
+//		for(int i = 0;i<strArray14.length ;i++) {
+//			if(strArray14[i] == xxReplace||strArray14[i] +32 == xxReplace) {
+//				strQuestion14 = strQuestion14.replace(strQuestion14.charAt(i), '*');
+//			}
+//		}
+//		System.out.println(strQuestion14);
+		
+//		Question 15 (Optional): Revert string by word
+//		Đảo ngược các ký tự của chuỗi cách nhau bởi dấu cách mà không dùng
+//		thư viện.
+//		Ví dụ: " I am developer " => "developer am I".
+//		Các ký tự bên trong chỉ cách nhau đúng một dấu khoảng cách.
+//		Gợi ý: Các bạn cần loại bỏ dấu cách ở đầu và cuối câu, thao tác cắt
+//		chuỗi theo dấu cách
+		
+		String strQs15 = " I am developer  ";
+		strQs15 =strQs15.trim();
+		String[] strQs15Array = strQs15.split(" ");
+		strQs15 = "";
+		for(int i = strQs15Array.length - 1;i >= 0;i--) {
+			strQs15 += strQs15Array[i] +" ";
+		}
+		System.out.println(strQs15);
+		
+		
+		sc.close();
 	}
 
 	public static void nhapTenQuestion3() {
@@ -328,7 +373,9 @@ public class Basic_testing_system_3_Ex4 {
 			}
 			System.out.println("Ký tự thứ " + ++i + " là: " + toCharI);
 		}
-
+		
+		
+		sc.close();
 	}
 
 	public static void nhapTenQuestion5() {

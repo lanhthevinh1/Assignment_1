@@ -1,4 +1,4 @@
-package entity;
+package xxentity;
 
 public class Basic_testing_system3_Ex3 {
 	public static void main(String[] args) {
