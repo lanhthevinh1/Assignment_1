@@ -1,15 +1,15 @@
 package com.vti.entity;
 
-public class HinhChuNhat {
-	private float chieuDai;
-	private float chieuRong;
+public abstract class HinhChuNhat implements IHinhChuNhat {
 	
-	public float tinhChuVi() {
+	@Override
+	public float tinhChuVi(float a, float b) {
 		
-		return (chieuDai + chieuRong)*2;
+		return (a + b)*2;
 	}
-	public float tinhDienTich() {
-		return chieuDai*chieuRong;
+	@Override
+	public float tinhDienTich(float a, float b) {
+		return a + b;
 	}
 	
 }
