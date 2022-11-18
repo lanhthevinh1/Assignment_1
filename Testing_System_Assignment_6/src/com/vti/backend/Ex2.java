@@ -4,6 +4,7 @@ import java.util.Scanner;
 
 import com.vti.entity.Department;
 import com.vti.entity.Group;
+import com.vti.entity.InvalidAgeInputException;
 
 public class Ex2 {
 	Department departments[] = new Department[3];
@@ -83,7 +84,7 @@ public class Ex2 {
 				}
 				else throw new  Exception("Wrong inputing! The age must be greater than 0, please input again.");
 			} catch (NumberFormatException e) {
-				System.out.println("wrong inputing! Please input an age as int, input again.");
+				throw new InvalidAgeInputException("wrong inputing! Please input an age as int, input again.");
 			}
 		}
 	}

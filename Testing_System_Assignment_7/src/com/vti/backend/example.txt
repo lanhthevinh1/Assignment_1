@@ -1,0 +1,15 @@
+lesstion7:
+ 
+Static 
+	static method
+	static property
+	non-static
+
+	lưu ý: 
+	{cursor}  {		instance			   }
+Canbo   canbo1 = new Canbo(property1,property2,property2 ,property2)
+-Final: final class
+-File: 
+-IO Stream:
+
+	

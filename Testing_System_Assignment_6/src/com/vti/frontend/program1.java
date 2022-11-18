@@ -10,8 +10,8 @@ public class program1 {
 		
 		
 //		ex2.Question4();
-//		ex2.Question5_6();
+		ex2.Question5_6();
 //		ex2.Question7_8_9();
-		ex2.Question10_11_12();
+//		ex2.Question10_11_12();
 	}
 }

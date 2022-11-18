@@ -1,0 +1,5 @@
+Account 0:
+	 userName=thevinh
+	 password=ankom111
+	 typeAccount=admin
+	 money=300.0

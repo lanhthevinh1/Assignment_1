@@ -1,9 +1,9 @@
-package com.vti.entity;
+package com.vti.ultis;
 
 import java.util.Scanner;
 
 public class ScannerUtils {
-	public static Scanner sc = new Scanner(System.in);
+	private static Scanner sc = new Scanner(System.in);
 	public ScannerUtils() {
 		sc = new Scanner(System.in);
 	}
@@ -48,19 +48,20 @@ public class ScannerUtils {
 		String result = sc.nextLine();
 		return result;
 	}
-	public static int inputAge(String errorMessage) throws InvalidAgeInputException{
-		while(true) {
-			System.out.println("Nhập tuổi của bạn: ");
-			String ageString = sc.nextLine();
-			try {
-				int age = Integer.parseInt(ageString);
-				if(age>0) {
-					return age;
-				}
-				else throw new  InvalidAgeInputException("The age must be greater than 0");
-			} catch (NumberFormatException e) {
-				System.out.println(errorMessage);
-			}
-		}
-	}
+//	public static int inputAge(String errorMessage) throws InvalidAgeInputException{
+//		while(true) {
+//			System.out.println("Nhập tuổi của bạn: ");
+//			String ageString = sc.nextLine();
+//			try {
+//				int age = Integer.parseInt(ageString);
+//				if(age>0) {
+//					return age;
+//				}
+//				else throw new  InvalidAgeInputException("The age must be greater than 0");
+//			} catch (NumberFormatException e) {
+//				System.out.println(errorMessage);
+//			}
+//		}
+//	}
 }
+

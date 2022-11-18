@@ -1,0 +1,9 @@
+Student 1:
+	id = 1
+	name =  Nguyen van A
+Student 2:
+	id = 2
+	name =  Nguyen van B
+Student 3:
+	id = 3
+	name =  Nguyen van C
