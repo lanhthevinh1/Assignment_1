@@ -20,7 +20,7 @@ public class Ex5 {
 //		System.out.println(IOManager.readFile("E:\\JAVA Doccument\\example.txt"));
 		
 		if(!FileManager2.fileIsExists("E:\\JAVA Doccument\\example.txt")) 
-			FileManager2.createNewFile("E:\\JAVA Doccument\\\\example.txt");
+			FileManager2.createNewFile("E:\\JAVA Doccument\\example.txt");
 //		
 //		for(Student2 student:students) {
 //			System.out.println(student.toString());
