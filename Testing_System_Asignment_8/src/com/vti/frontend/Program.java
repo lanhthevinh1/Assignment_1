@@ -7,6 +7,7 @@ public class Program {
 //		Ex1.Question1();
 //		Ex1.Question2();
 //		Ex1.Question3();
-		Ex1.Question4();
+//		Ex1.Question4_5();
+		Ex1.Question_6();
 	}
 }

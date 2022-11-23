@@ -3,10 +3,12 @@ package com.vti.backend;
 import java.util.ArrayList;
 import java.util.Collection;
 import java.util.Collections;
+import java.util.HashMap;
 import java.util.HashSet;
 import java.util.Iterator;
 import java.util.LinkedList;
 import java.util.List;
+import java.util.Map;
 import java.util.PriorityQueue;
 import java.util.Queue;
 import java.util.Set;
@@ -128,7 +130,7 @@ public class Ex1 {
 //		System.out.println(studentSet.);
 	}
 	
-	public static void Question4() {
+	public static void Question4_5() {
 		Set<Student> studentSet = new HashSet();
 		studentSet.add(new Student("Nguyễn Văn Nam"));
 		studentSet.add(new Student("Nguyễn Văn A"));
@@ -154,6 +156,19 @@ public class Ex1 {
 			System.out.println(studentNon);
 		}
 		
+	}
+	
+	public static void Question_6() {
+		Map<Integer, String> students = new HashMap<Integer,String>();
+		students.put(1, "Nguyễn Văn B");
+		students.put(2, "Nguyễn Văn C");
+		students.put(0, "Nguyễn Văn A");
+		students.put(3, "Nguyễn Văn D");
+		
+		System.out.println(students.keySet());
+		System.out.println(students.toString());
 		
 	}
+	
+	
 }

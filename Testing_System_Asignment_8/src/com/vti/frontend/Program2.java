@@ -1,10 +1,10 @@
 package com.vti.frontend;
 
-import com.vti.backend.Ex3;
+import com.vti.backend.Ex2;
 
 public class Program2 {
 	public static void main(String[] args) {
-		Ex3 ex3 = new Ex3();
-		ex3.Question2("lksajflas");
+		Ex2 ex2 = new Ex2();
+		ex2.Question1_2();
 	}
 }
