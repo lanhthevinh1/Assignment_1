@@ -8,6 +8,6 @@ public class Program4 {
 		System.out.println("--------------------------------------------------------");
 		ex4.Question1();
 		System.out.println("--------------------------------------------------------");
-		
+		ex4.Question3();
 	}
 }

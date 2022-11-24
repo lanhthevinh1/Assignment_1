@@ -1,5 +1,6 @@
 package com.vti.backend;
 
+import com.vti.entity.MyNumber;
 import com.vti.entity.Salary;
 
 public class Ex4 {
@@ -8,7 +9,8 @@ public class Ex4 {
 		salary.showSalary();
  	}
 	
-	public void Question2() {
-		
+	public void Question3() {
+		MyNumber<Number> number = new MyNumber<>();
+		System.out.println(number.timMax(32, 31));
 	}
 }
