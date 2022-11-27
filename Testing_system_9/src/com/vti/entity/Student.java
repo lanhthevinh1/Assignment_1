@@ -12,6 +12,7 @@ public class Student {
 	public String toString() {
 		return "Student " + id + ":\n name= " + name ;
 	}
+	
 	@Deprecated
 	public int getId() {
 		return id;
