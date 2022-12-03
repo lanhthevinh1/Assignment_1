@@ -1,0 +1,14 @@
+
+
+Mô hình 3 lớp (3-tier attribute)
+
+        FRONT END: HTML, CSS, JavaScript, FrameWork: ReactJS;
+		Sẽ thông qua controller(presentationlayer) 
+		Dùng API jQuery
+
+
+        BACK END presentationlayer: controller
+                 businesslayer: service
+                 datalayer: repository
+
+        DATA : SQL,SQL server, MySQL
